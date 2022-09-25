@@ -1,5 +1,6 @@
 import $api from "./api/$api";
 import aspida from "@aspida/fetch";
+// import $api from "../server/api/$api";
 
 const apiClient = $api(
   aspida(undefined, {

@@ -7,7 +7,7 @@ function App() {
   const [greeting, setGreeting] = useState("loading...");
 
   useEffect(() => {
-    api.$get().then((res) => {
+    api.hi.$get().then((res) => {
       setGreeting(res.hello);
     });
   }, []);
